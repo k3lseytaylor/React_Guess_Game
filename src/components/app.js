@@ -1,13 +1,10 @@
 import React from 'react';
-import './app.css';
-import logo from './imgs/logo.svg';
+import Guess from './guess';
 
 const App = () => (
-    <div>
-        <div className="app">
-            <img src={logo} className="rotate"/>
-            <h1>Welcome to React!</h1>
-        </div>
+    <div className="container">
+    	<h1>Guessing Game</h1>
+    	<Guess/>
     </div>
 );
 
